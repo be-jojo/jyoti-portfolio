@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: 6 10 18;
+  --foreground: 241 245 249;
+  --surface: 15 23 42;
+  --muted: 148 163 184;
+  --border: 71 85 105;
+}
+
+.light {
+  color-scheme: light;
+  --background: 244 247 251;
+  --foreground: 15 23 42;
+  --surface: 255 255 255;
+  --muted: 71 85 105;
+  --border: 203 213 225;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground font-sans antialiased transition-colors duration-300;
+  background-image:
+    radial-gradient(circle at top left, rgba(89, 227, 167, 0.1), transparent 28%),
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.12), transparent 24%),
+    linear-gradient(180deg, rgba(var(--background), 1), rgba(var(--background), 1));
+}
+
+* {
+  @apply border-border;
+}
+
+::selection {
+  background: rgba(96, 165, 250, 0.3);
+}
+
+.glass-panel {
+  @apply border border-white/10 bg-white/5 backdrop-blur-xl shadow-glass;
+}
+
+.light .glass-panel {
+  @apply border-slate-200/80 bg-white/80;
+}
+
+.light .text-white {
+  color: rgb(15 23 42) !important;
+}
+
+.light .text-slate-100,
+.light .text-slate-200,
+.light .text-slate-300 {
+  color: rgb(30 41 59) !important;
+}
+
+.light .text-slate-400,
+.light .text-slate-500 {
+  color: rgb(71 85 105) !important;
+}
+
+.light [class*='bg-slate-950'],
+.light [class*='bg-slate-900'],
+.light [class*='bg-slate-950/'],
+.light [class*='bg-slate-900/'],
+.light [class*='bg-slate-950\\/'],
+.light [class*='bg-slate-900\\/'] {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.light [class*='border-white/10'],
+.light [class*='border-white\\/10'] {
+  border-color: rgba(148, 163, 184, 0.35) !important;
+}
+
+.light [class*='bg-white/5'],
+.light [class*='bg-white/10'],
+.light [class*='bg-white\\/5'],
+.light [class*='bg-white\\/10'] {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-spacing {
+  @apply py-20 sm:py-24;
+}
+
+.nav-link {
+  @apply text-sm font-medium text-slate-300 transition duration-300 hover:text-white;
+}
+
+.light .nav-link {
+  @apply text-slate-600 hover:text-slate-950;
+}
+
+.accent-ring {
+  @apply ring-1 ring-inset ring-white/10;
+}
+
+.light .accent-ring {
+  @apply ring-slate-200;
+}

@@ -1,0 +1,18 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#070D18"/>
+  <rect x="60" y="60" width="1080" height="600" rx="30" fill="#0E1627" stroke="#1E293B"/>
+  <circle cx="310" cy="360" r="152" fill="url(#paint0_radial_1_4)" fill-opacity="0.95"/>
+  <circle cx="310" cy="360" r="82" stroke="#E2E8F0" stroke-opacity="0.65" stroke-width="24"/>
+  <path d="M504 204H1040" stroke="#334155" stroke-width="20" stroke-linecap="round"/>
+  <path d="M504 298H1004" stroke="#59E3A7" stroke-opacity="0.55" stroke-width="20" stroke-linecap="round"/>
+  <path d="M504 392H1040" stroke="#334155" stroke-width="20" stroke-linecap="round"/>
+  <path d="M504 486H960" stroke="#334155" stroke-width="20" stroke-linecap="round"/>
+  <path d="M210 360H410" stroke="#E2E8F0" stroke-width="12" stroke-linecap="round"/>
+  <path d="M310 260V460" stroke="#E2E8F0" stroke-width="12" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="paint0_radial_1_4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 360) rotate(90) scale(152)">
+      <stop stop-color="#59E3A7"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </radialGradient>
+  </defs>
+</svg>
