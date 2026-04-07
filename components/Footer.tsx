@@ -6,17 +6,17 @@ import { ArrowUp, Github, Linkedin, Mail } from 'lucide-react';
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://github.com/jyotisuthar',
+    href: 'https://github.com/be-jojo',
     icon: Github,
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/jyotisuthar',
+    href: 'https://www.linkedin.com/in/jyoti-suthar-359125203/',
     icon: Linkedin,
   },
   {
     label: 'Email',
-    href: 'mailto:jyoti.suthar.dev@gmail.com',
+    href: 'mailto:sutharjojo203@gmail.com',
     icon: Mail,
   },
 ];
@@ -24,6 +24,7 @@ const socials = [
 export default function Footer() {
   return (
     <motion.footer
+      id="contact"
       className="section-shell pb-8 pt-4"
     >
       <div className="glass-panel flex flex-col gap-5 rounded-[2rem] px-6 py-5 sm:flex-row sm:items-center sm:justify-between">

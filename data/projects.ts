@@ -1,4 +1,5 @@
-export type ProjectCategory = 'All' | 'Frontend' | 'AI' | 'Full Stack';
+// export type ProjectCategory = 'All' | 'Frontend' | 'AI' | 'Full Stack';
+export type ProjectCategory = 'All' | 'Frontend';
 
 export type Project = {
   id: number;
@@ -14,42 +15,42 @@ export type Project = {
 export const projectCategories: ProjectCategory[] = [
   'All',
   'Frontend',
-  'AI',
-  'Full Stack',
+  // 'AI',
+  // 'Full Stack',
 ];
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Full Stack Web App',
+    title: "SwiftNotes Reader",
     description:
-      'A production-style web platform with authenticated dashboards, clean API integrations, and a scalable frontend architecture.',
-    image: '/images/full-stack-web-app.svg',
-    category: 'Full Stack',
-    techStack: ['Next.js', 'TypeScript', 'Node.js', 'REST API', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/jyotisuthar/full-stack-web-app',
-    liveUrl: 'https://full-stack-web-app.vercel.app',
+      "A speed-reading web application that allows users to paste text, upload PDFs, or enter webpage URLs to read content rapidly. Includes a clean reader interface and extensible architecture for annotations and AI-powered summaries.",
+    image: "/images/react-dashboard.svg",
+    category: "Frontend",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    githubUrl: "https://github.com/be-jojo/swiftnotes-reader",
+    liveUrl: "",
   },
   {
     id: 2,
-    title: 'React Dashboard',
+    title: "Sorting Visualizer",
     description:
-      'An analytics dashboard focused on reusable UI, responsive data visualizations, and fast developer workflows.',
-    image: '/images/react-dashboard.svg',
-    category: 'Frontend',
-    techStack: ['React', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/jyotisuthar/react-dashboard',
-    liveUrl: 'https://react-dashboard-demo.vercel.app',
+      "An interactive visualization tool that demonstrates how popular sorting algorithms work step-by-step. Users can visualize sorting processes such as Bubble Sort, Selection Sort, and Merge Sort with animated bars.",
+    image: "/images/react-dashboard.svg",
+    category: "Frontend",
+    techStack: ["React", "JavaScript", "HTML", "CSS"],
+    githubUrl: "https://github.com/be-jojo/sorting_visualizer",
+    liveUrl: "https://cs391-12d57.web.app",
   },
   {
     id: 3,
-    title: 'AI/ML Project',
+    title: "Knowledge Base UI",
     description:
-      'An experimentation project exploring machine learning fundamentals, Python pipelines, and model-backed user experiences.',
-    image: '/images/ai-ml-project.svg',
-    category: 'AI',
-    techStack: ['Python', 'Machine Learning', 'Data Analysis', 'Visualization'],
-    githubUrl: 'https://github.com/jyotisuthar/ai-ml-project',
-    liveUrl: 'https://ai-ml-project-demo.vercel.app',
+      "A responsive Knowledge Base interface built from a Figma design. The project focuses on component-based architecture, reusable UI elements, and pixel-accurate implementation using modern frontend tools.",
+    image: "/images/react-dashboard.svg",
+    category: "Frontend",
+    techStack: ["React.js", "JavaScript", "Tailwind CSS"],
+    githubUrl: "https://github.com/be-jojo/knowledge-base-app",
+    liveUrl: "https://knowledge-base-app-khaki.vercel.app/",
   },
 ];

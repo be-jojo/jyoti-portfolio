@@ -18,15 +18,13 @@ export default function About() {
 
         <div className="glass-panel rounded-[2rem] p-8">
           <p className="text-base leading-8 text-slate-300">
-            I am a software engineer focused on React frontend development, creating interfaces
-            that are responsive, intuitive, and maintainable. I enjoy translating ideas into
-            polished user experiences with clean architecture and reusable components.
+            I am a frontend developer with 3 years of experience building React applications — focused on responsive interfaces, reusable components, and clean, maintainable architecture. I care about translating ideas into polished user experiences that are both performant and easy to work with.
           </p>
           <p className="mt-5 text-base leading-8 text-slate-400">
-            Alongside frontend work, I have a growing interest in full stack development and
-            enjoy understanding how the UI connects to APIs, data flows, and backend systems.
-            I am also actively learning AI and machine learning concepts while preparing for
-            GATE, which keeps my problem-solving skills sharp and my long-term goals grounded.
+            Beyond the UI layer, I have been building enough understanding of backend systems, APIs, and data flow to reason about how frontend fits into the full product — not to build backends, but to collaborate better and make stronger frontend decisions.
+          </p>
+          <p className="mt-5 text-base leading-8 text-slate-400">  
+            I am also exploring machine learning fundamentals and Python workflows, driven by genuine curiosity about how AI concepts connect to real product experiences. My longer-term interests lean toward computer vision and applied ML — fields I find intellectually compelling and want to grow into over time.
           </p>
         </div>
       </div>

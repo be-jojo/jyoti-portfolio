@@ -1,6 +1,9 @@
 import {
+  Brain,
   BrainCircuit,
+  ChartSpline,
   DatabaseZap,
+  Dock,
   FileCode2,
   Globe,
   MonitorSmartphone,
@@ -29,14 +32,19 @@ export const skillGroups: SkillGroup[] = [
         description: 'Building component-driven interfaces with modern patterns.',
       },
       {
-        name: 'Next.js',
-        icon: PanelsTopLeft,
-        description: 'Shipping performant apps with App Router and server-first thinking.',
-      },
-      {
         name: 'JavaScript',
         icon: FileCode2,
         description: 'Writing clean, interactive client-side logic.',
+      },
+      {
+        name: 'MUI',
+        icon: Dock,
+        description: 'Designing modern, scalable UI systems quickly.',
+      },
+      {
+        name: 'Next.js',
+        icon: PanelsTopLeft,
+        description: 'Shipping performant apps with App Router and server-first thinking.',
       },
       {
         name: 'TypeScript',
@@ -77,6 +85,16 @@ export const skillGroups: SkillGroup[] = [
         name: 'Machine Learning Basics',
         icon: BrainCircuit,
         description: 'Learning model fundamentals, workflows, and applied AI concepts.',
+      },
+      {
+        name: 'Linear Algebra',
+        icon: Brain,
+        description: 'Understanding the mathematical foundations of machine learning algorithms.',
+      },
+      {
+        name: 'Probability & Statistics',
+        icon: ChartSpline,
+        description: 'Grasping the concepts of uncertainty, distributions, and statistical inference in ML.',
       },
     ],
   },

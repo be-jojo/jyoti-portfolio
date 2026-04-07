@@ -4,32 +4,32 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    period: '2025 - Present',
-    title: 'Frontend Developer Journey',
-    company: 'Independent Learning & Project Building',
+    period: 'Jan 2023 - Jun 2023',
+    title: 'Software Engineer Trainee',
+    company: 'Cognam Technologies',
     description:
-      'Building React and Next.js projects with a strong focus on responsive UI, reusable components, and maintainable frontend architecture.',
+      'Built React projects with a focus on responsive UI, reusable components, and maintainable frontend architecture.',
   },
   {
-    period: '2024 - Present',
-    title: 'Full Stack Exploration',
+    period: 'July 2023 - Jan 2026',
+    title: 'Software Engineer',
+    company: 'Cognam Technologies',
+    description:
+      'Collaborated on React projects delivering responsive interfaces, reusable component libraries, and performance-optimised frontend architecture.',
+  },
+  {
+    period: '2025 - Present',
+    title: 'System Design Exploration',
     company: 'Self-Driven Practice',
     description:
-      'Expanding from frontend into APIs, data flow, and application structure to better understand end-to-end product development.',
+      'Strengthening computer science fundamentals and system design intuition. Building enough backend and data-flow literacy to reason about how frontend fits into the broader product.',
   },
   {
-    period: '2024 - Present',
+    period: '2026 - Present',
     title: 'AI / ML Learning Track',
-    company: 'Python & Machine Learning Practice',
+    company: 'Self-Driven Practice',
     description:
-      'Exploring machine learning basics, practical Python workflows, and the foundations needed to connect AI concepts with product experiences.',
-  },
-  {
-    period: 'Ongoing',
-    title: 'GATE Preparation',
-    company: 'Focused Academic Preparation',
-    description:
-      'Strengthening core computer science concepts and disciplined problem-solving through consistent preparation and structured study.',
+      'Exploring machine learning fundamentals and practical Python workflows to understand how AI concepts connect to product experiences.',
   },
 ];
 

@@ -6,20 +6,20 @@ import { Github, Linkedin, Mail, Send } from 'lucide-react';
 const contactLinks = [
   {
     label: 'Email',
-    value: 'jyoti.suthar.dev@gmail.com',
-    href: 'mailto:jyoti.suthar.dev@gmail.com',
+    value: 'sutharjojo203@gmail.com',
+    href: 'mailto:sutharjojo203@gmail.com',
     icon: Mail,
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/jyotisuthar',
-    href: 'https://linkedin.com/in/jyotisuthar',
+    value: 'linkedin.com/in/jyoti-suthar-359125203/',
+    href: 'https://www.linkedin.com/in/jyoti-suthar-359125203/',
     icon: Linkedin,
   },
   {
     label: 'GitHub',
-    value: 'github.com/jyotisuthar',
-    href: 'https://github.com/jyotisuthar',
+    value: 'github.com/be-jojo',
+    href: 'https://github.com/be-jojo',
     icon: Github,
   },
 ];

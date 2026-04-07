@@ -18,7 +18,7 @@ export default function Skills() {
         </div>
         <p className="max-w-2xl text-base leading-8 text-slate-400">
           I focus on modern frontend engineering with React and Next.js, while steadily
-          expanding into backend systems and AI/ML foundations.
+          expanding into Agentic systems and AI/ML foundations.
         </p>
       </div>
 
